@@ -127,7 +127,7 @@ int main()
     bool board1[30][30], board2[30][30];
     fill(*board1, *board1 + 30 * 30, 0);
     fill(*board2, *board2 + 30 * 30, 0);
-    int seed, iteration = 0, boardState = 1, now;
+    int seed, iteration = 0, boardState = 1;
     bool alive;
     
     cout << "Enter a Seed: ";
